@@ -1,0 +1,683 @@
+{
+  "build": "py37haa95532_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "ipykernel >=5.1.2",
+    "ipywidgets >=7.0.0",
+    "jinja2 >=2.10.1",
+    "numpy",
+    "python >=3.7,<3.8.0a0",
+    "traitlets >=4.3.2"
+  ],
+  "extracted_package_dir": "C:\\Users\\pavan\\.conda\\pkgs\\pydeck-0.7.1-py37haa95532_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/pydeck-0.7.1.dist-info/INSTALLER",
+    "Lib/site-packages/pydeck-0.7.1.dist-info/LICENSE.txt",
+    "Lib/site-packages/pydeck-0.7.1.dist-info/METADATA",
+    "Lib/site-packages/pydeck-0.7.1.dist-info/RECORD",
+    "Lib/site-packages/pydeck-0.7.1.dist-info/REQUESTED",
+    "Lib/site-packages/pydeck-0.7.1.dist-info/WHEEL",
+    "Lib/site-packages/pydeck-0.7.1.dist-info/direct_url.json",
+    "Lib/site-packages/pydeck-0.7.1.dist-info/top_level.txt",
+    "Lib/site-packages/pydeck/__init__.py",
+    "Lib/site-packages/pydeck/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pydeck/__pycache__/_version.cpython-37.pyc",
+    "Lib/site-packages/pydeck/__pycache__/frontend_semver.cpython-37.pyc",
+    "Lib/site-packages/pydeck/__pycache__/settings.cpython-37.pyc",
+    "Lib/site-packages/pydeck/_version.py",
+    "Lib/site-packages/pydeck/bindings/__init__.py",
+    "Lib/site-packages/pydeck/bindings/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pydeck/bindings/__pycache__/base_map_provider.cpython-37.pyc",
+    "Lib/site-packages/pydeck/bindings/__pycache__/deck.cpython-37.pyc",
+    "Lib/site-packages/pydeck/bindings/__pycache__/json_tools.cpython-37.pyc",
+    "Lib/site-packages/pydeck/bindings/__pycache__/layer.cpython-37.pyc",
+    "Lib/site-packages/pydeck/bindings/__pycache__/light_settings.cpython-37.pyc",
+    "Lib/site-packages/pydeck/bindings/__pycache__/map_styles.cpython-37.pyc",
+    "Lib/site-packages/pydeck/bindings/__pycache__/view.cpython-37.pyc",
+    "Lib/site-packages/pydeck/bindings/__pycache__/view_state.cpython-37.pyc",
+    "Lib/site-packages/pydeck/bindings/base_map_provider.py",
+    "Lib/site-packages/pydeck/bindings/deck.py",
+    "Lib/site-packages/pydeck/bindings/json_tools.py",
+    "Lib/site-packages/pydeck/bindings/layer.py",
+    "Lib/site-packages/pydeck/bindings/light_settings.py",
+    "Lib/site-packages/pydeck/bindings/map_styles.py",
+    "Lib/site-packages/pydeck/bindings/view.py",
+    "Lib/site-packages/pydeck/bindings/view_state.py",
+    "Lib/site-packages/pydeck/data_utils/__init__.py",
+    "Lib/site-packages/pydeck/data_utils/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pydeck/data_utils/__pycache__/binary_transfer.cpython-37.pyc",
+    "Lib/site-packages/pydeck/data_utils/__pycache__/color_scales.cpython-37.pyc",
+    "Lib/site-packages/pydeck/data_utils/__pycache__/type_checking.cpython-37.pyc",
+    "Lib/site-packages/pydeck/data_utils/__pycache__/viewport_helpers.cpython-37.pyc",
+    "Lib/site-packages/pydeck/data_utils/binary_transfer.py",
+    "Lib/site-packages/pydeck/data_utils/color_scales.py",
+    "Lib/site-packages/pydeck/data_utils/type_checking.py",
+    "Lib/site-packages/pydeck/data_utils/viewport_helpers.py",
+    "Lib/site-packages/pydeck/exceptions/__init__.py",
+    "Lib/site-packages/pydeck/exceptions/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pydeck/exceptions/__pycache__/exceptions.cpython-37.pyc",
+    "Lib/site-packages/pydeck/exceptions/exceptions.py",
+    "Lib/site-packages/pydeck/frontend_semver.py",
+    "Lib/site-packages/pydeck/io/__init__.py",
+    "Lib/site-packages/pydeck/io/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pydeck/io/__pycache__/html.cpython-37.pyc",
+    "Lib/site-packages/pydeck/io/html.py",
+    "Lib/site-packages/pydeck/io/templates/index.j2",
+    "Lib/site-packages/pydeck/io/templates/style.j2",
+    "Lib/site-packages/pydeck/nbextension/__init__.py",
+    "Lib/site-packages/pydeck/nbextension/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pydeck/nbextension/static/.gitkeep",
+    "Lib/site-packages/pydeck/nbextension/static/extensionRequires.js",
+    "Lib/site-packages/pydeck/nbextension/static/index.js",
+    "Lib/site-packages/pydeck/nbextension/static/index.js.map",
+    "Lib/site-packages/pydeck/settings.py",
+    "Lib/site-packages/pydeck/types/__init__.py",
+    "Lib/site-packages/pydeck/types/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pydeck/types/__pycache__/base.cpython-37.pyc",
+    "Lib/site-packages/pydeck/types/__pycache__/image.cpython-37.pyc",
+    "Lib/site-packages/pydeck/types/__pycache__/string.cpython-37.pyc",
+    "Lib/site-packages/pydeck/types/base.py",
+    "Lib/site-packages/pydeck/types/image.py",
+    "Lib/site-packages/pydeck/types/string.py",
+    "Lib/site-packages/pydeck/widget/__init__.py",
+    "Lib/site-packages/pydeck/widget/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/pydeck/widget/__pycache__/_frontend.cpython-37.pyc",
+    "Lib/site-packages/pydeck/widget/__pycache__/debounce.cpython-37.pyc",
+    "Lib/site-packages/pydeck/widget/__pycache__/widget.cpython-37.pyc",
+    "Lib/site-packages/pydeck/widget/_frontend.py",
+    "Lib/site-packages/pydeck/widget/debounce.py",
+    "Lib/site-packages/pydeck/widget/widget.py",
+    "etc/jupyter/nbconfig/notebook.d/pydeck.json",
+    "share/jupyter/nbextensions/pydeck/extensionRequires.js",
+    "share/jupyter/nbextensions/pydeck/index.js",
+    "share/jupyter/nbextensions/pydeck/index.js.map"
+  ],
+  "fn": "pydeck-0.7.1-py37haa95532_0.conda",
+  "legacy_bz2_md5": "9717bca18398e0a499534857d5e2f415",
+  "legacy_bz2_size": 3718998,
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "link": {
+    "source": "C:\\Users\\pavan\\.conda\\pkgs\\pydeck-0.7.1-py37haa95532_0",
+    "type": 1
+  },
+  "md5": "399f59b6900d1c5e27a78d11a7518568",
+  "name": "pydeck",
+  "package_tarball_full_path": "C:\\Users\\pavan\\.conda\\pkgs\\pydeck-0.7.1-py37haa95532_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/pydeck-0.7.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "Lib/site-packages/pydeck-0.7.1.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "402ca0e942bd4f660e7e8d46e296f5a53ab071768a7f46ccc2190490baa925c7",
+        "sha256_in_prefix": "402ca0e942bd4f660e7e8d46e296f5a53ab071768a7f46ccc2190490baa925c7",
+        "size_in_bytes": 607
+      },
+      {
+        "_path": "Lib/site-packages/pydeck-0.7.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "4b3f986fc3da18597d5c7dacbc45c29f75f85cc1c146c6dc852f77bc3de44228",
+        "sha256_in_prefix": "4b3f986fc3da18597d5c7dacbc45c29f75f85cc1c146c6dc852f77bc3de44228",
+        "size_in_bytes": 3919
+      },
+      {
+        "_path": "Lib/site-packages/pydeck-0.7.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "557f3007ad5de15c973f46c21dcc72c3ae4a2256a54fd79086ce7fb13890e544",
+        "sha256_in_prefix": "557f3007ad5de15c973f46c21dcc72c3ae4a2256a54fd79086ce7fb13890e544",
+        "size_in_bytes": 5929
+      },
+      {
+        "_path": "Lib/site-packages/pydeck-0.7.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/pydeck-0.7.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "cfd8f4c406bf26650a3299b3ef62b464600b48cfe7fb04159866e5797c765478",
+        "sha256_in_prefix": "cfd8f4c406bf26650a3299b3ef62b464600b48cfe7fb04159866e5797c765478",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "Lib/site-packages/pydeck-0.7.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "9c1ee5c6f35b6535134f756d682c7df0f1fff621c781884f3e6efcd701362337",
+        "sha256_in_prefix": "9c1ee5c6f35b6535134f756d682c7df0f1fff621c781884f3e6efcd701362337",
+        "size_in_bytes": 139
+      },
+      {
+        "_path": "Lib/site-packages/pydeck-0.7.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "94b3831000cf5955dd379b78ea394776c5bbab6e21060487a09220b04e607a48",
+        "sha256_in_prefix": "94b3831000cf5955dd379b78ea394776c5bbab6e21060487a09220b04e607a48",
+        "size_in_bytes": 7
+      },
+      {
+        "_path": "Lib/site-packages/pydeck/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "52798ad9c84e79096834c69505816eb4c98a55ff81f7c951c79af4ca21de717e",
+        "sha256_in_prefix": "52798ad9c84e79096834c69505816eb4c98a55ff81f7c951c79af4ca21de717e",
+        "size_in_bytes": 411
+      },
+      {
+        "_path": "Lib/site-packages/pydeck/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "fa050358049e800ced5dcb450374c1e8891f6c67d761fb99fecb362fd354725e",
+        "sha256_in_prefix": "fa050358049e800ced5dcb450374c1e8891f6c67d761fb99fecb362fd354725e",
+        "size_in_bytes": 436
+      },
+      {
+        "_path": "Lib/site-packages/pydeck/__pycache__/_version.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "f837b615ce65208bab8a423d46d7a3ee5fe4b4edc15b4cdf56958e9d70b7291f",
+        "sha256_in_prefix": "f837b615ce65208bab8a423d46d7a3ee5fe4b4edc15b4cdf56958e9d70b7291f",
+        "size_in_bytes": 144
+      },
+      {
+        "_path": "Lib/site-packages/pydeck/__pycache__/frontend_semver.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "73996373586b3ec8251a33bd83f862b536011587018bde868941356078229c4f",
+        "sha256_in_prefix": "73996373586b3ec8251a33bd83f862b536011587018bde868941356078229c4f",
+        "size_in_bytes": 154
+      },
+      {
+        "_path": "Lib/site-packages/pydeck/__pycache__/settings.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "f3d2ef7c825d8a679daa72d368471fc1e9d314c59aaeb027b0c74a30de72915f",
+        "sha256_in_prefix": "f3d2ef7c825d8a679daa72d368471fc1e9d314c59aaeb027b0c74a30de72915f",
+        "size_in_bytes": 1561
+      },
+      {
+        "_path": "Lib/site-packages/pydeck/_version.py",
+        "path_type": "hardlink",
+        "sha256": "d8a2590d230e1bb292f3603160ead9e198a16315f4c237d48c3b08661dcbd36e",
+        "sha256_in_prefix": "d8a2590d230e1bb292f3603160ead9e198a16315f4c237d48c3b08661dcbd36e",
+        "size_in_bytes": 22
+      },
+      {
+        "_path": "Lib/site-packages/pydeck/bindings/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "a75fd8f1f2fbc1a8d43b92fcee0719de32c06c7b88e74198ef6eac98fe335da0",
+        "sha256_in_prefix": "a75fd8f1f2fbc1a8d43b92fcee0719de32c06c7b88e74198ef6eac98fe335da0",
+        "size_in_bytes": 221
+      },
+      {
+        "_path": "Lib/site-packages/pydeck/bindings/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "52a41f9ceb1394d0c7f92d23ea66073c5f1ee6d852a13ae535b0c9c4968b03d7",
+        "sha256_in_prefix": "52a41f9ceb1394d0c7f92d23ea66073c5f1ee6d852a13ae535b0c9c4968b03d7",
+        "size_in_bytes": 364
+      },
+      {
+        "_path": "Lib/site-packages/pydeck/bindings/__pycache__/base_map_provider.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "ae844702072f268dbac7906729e6646247f8bfda41286e0dce51ee1381036a66",
+        "sha256_in_prefix": "ae844702072f268dbac7906729e6646247f8bfda41286e0dce51ee1381036a66",
+        "size_in_bytes": 459
+      },
+      {
+        "_path": "Lib/site-packages/pydeck/bindings/__pycache__/deck.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "6f0cc5baf8b0fe82fe4456bdce819b50c1d7c33b58fc7864622de53e4e01c326",
+        "sha256_in_prefix": "6f0cc5baf8b0fe82fe4456bdce819b50c1d7c33b58fc7864622de53e4e01c326",
+        "size_in_bytes": 7716
+      },
+      {
+        "_path": "Lib/site-packages/pydeck/bindings/__pycache__/json_tools.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "2ae0bd63b7a03891678d71d71f8293f332a84b344a4c1672ca7468094614bf69",
+        "sha256_in_prefix": "2ae0bd63b7a03891678d71d71f8293f332a84b344a4c1672ca7468094614bf69",
+        "size_in_bytes": 2984
+      },
+      {
+        "_path": "Lib/site-packages/pydeck/bindings/__pycache__/layer.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "87beb28d8722e9c91540c05690f84c497694cf35597380473dea5cb7674fae62",
+        "sha256_in_prefix": "87beb28d8722e9c91540c05690f84c497694cf35597380473dea5cb7674fae62",
+        "size_in_bytes": 5453
+      },
+      {
+        "_path": "Lib/site-packages/pydeck/bindings/__pycache__/light_settings.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "921bddbc585237df385c7fa831afb7aa15642045d2e469c7b02c58e33d54464d",
+        "sha256_in_prefix": "921bddbc585237df385c7fa831afb7aa15642045d2e469c7b02c58e33d54464d",
+        "size_in_bytes": 1237
+      },
+      {
+        "_path": "Lib/site-packages/pydeck/bindings/__pycache__/map_styles.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "421d7f6440afb11d0b80668432bda44c50f7c8a06d7f429e01e54a5c875c07bd",
+        "sha256_in_prefix": "421d7f6440afb11d0b80668432bda44c50f7c8a06d7f429e01e54a5c875c07bd",
+        "size_in_bytes": 2049
+      },
+      {
+        "_path": "Lib/site-packages/pydeck/bindings/__pycache__/view.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "2ca32368a44dec9af1c82dd7bc6c3d951cd8aabd07ab6bde80e6e4efa7014c6b",
+        "sha256_in_prefix": "2ca32368a44dec9af1c82dd7bc6c3d951cd8aabd07ab6bde80e6e4efa7014c6b",
+        "size_in_bytes": 1205
+      },
+      {
+        "_path": "Lib/site-packages/pydeck/bindings/__pycache__/view_state.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "6cdc89a9ae4743b3e86a6efc14564a268d19d2d5add519e8aeb9ec3e327c4790",
+        "sha256_in_prefix": "6cdc89a9ae4743b3e86a6efc14564a268d19d2d5add519e8aeb9ec3e327c4790",
+        "size_in_bytes": 1689
+      },
+      {
+        "_path": "Lib/site-packages/pydeck/bindings/base_map_provider.py",
+        "path_type": "hardlink",
+        "sha256": "1573c98a7b9db8f3e38fb443893f1abf5bd0e7b5c38871c4d1cbd5e6f6c94f2b",
+        "sha256_in_prefix": "1573c98a7b9db8f3e38fb443893f1abf5bd0e7b5c38871c4d1cbd5e6f6c94f2b",
+        "size_in_bytes": 175
+      },
+      {
+        "_path": "Lib/site-packages/pydeck/bindings/deck.py",
+        "path_type": "hardlink",
+        "sha256": "47075df815a28b65503ce1618d8523481540c1d32593c2e896eef2bf895da337",
+        "sha256_in_prefix": "47075df815a28b65503ce1618d8523481540c1d32593c2e896eef2bf895da337",
+        "size_in_bytes": 8610
+      },
+      {
+        "_path": "Lib/site-packages/pydeck/bindings/json_tools.py",
+        "path_type": "hardlink",
+        "sha256": "f6ffb4720b61d6f21adff9765e05f96a994a2554d8646b5b4bcef41e5edbe947",
+        "sha256_in_prefix": "f6ffb4720b61d6f21adff9765e05f96a994a2554d8646b5b4bcef41e5edbe947",
+        "size_in_bytes": 2574
+      },
+      {
+        "_path": "Lib/site-packages/pydeck/bindings/layer.py",
+        "path_type": "hardlink",
+        "sha256": "211d20da360c22662cc0177401828d633c06c4387b7fe31faba9ca75f24f1e90",
+        "sha256_in_prefix": "211d20da360c22662cc0177401828d633c06c4387b7fe31faba9ca75f24f1e90",
+        "size_in_bytes": 6776
+      },
+      {
+        "_path": "Lib/site-packages/pydeck/bindings/light_settings.py",
+        "path_type": "hardlink",
+        "sha256": "400167ab10442ce92b683323923cbb09fffae008cc474bad923f67e141703c25",
+        "sha256_in_prefix": "400167ab10442ce92b683323923cbb09fffae008cc474bad923f67e141703c25",
+        "size_in_bytes": 1124
+      },
+      {
+        "_path": "Lib/site-packages/pydeck/bindings/map_styles.py",
+        "path_type": "hardlink",
+        "sha256": "ae98f2b715fe50496511ccbba737d1e62e90b578a1241659c28998adc949f096",
+        "sha256_in_prefix": "ae98f2b715fe50496511ccbba737d1e62e90b578a1241659c28998adc949f096",
+        "size_in_bytes": 2081
+      },
+      {
+        "_path": "Lib/site-packages/pydeck/bindings/view.py",
+        "path_type": "hardlink",
+        "sha256": "760eb592c232463dcc310d3b50a92e5581d96ee838840ba56fff29b743b5e0ef",
+        "sha256_in_prefix": "760eb592c232463dcc310d3b50a92e5581d96ee838840ba56fff29b743b5e0ef",
+        "size_in_bytes": 848
+      },
+      {
+        "_path": "Lib/site-packages/pydeck/bindings/view_state.py",
+        "path_type": "hardlink",
+        "sha256": "de29ee3d5a124921c6418fdf94e4f1dc540eb956060ace2fe3c13753522debdd",
+        "sha256_in_prefix": "de29ee3d5a124921c6418fdf94e4f1dc540eb956060ace2fe3c13753522debdd",
+        "size_in_bytes": 1516
+      },
+      {
+        "_path": "Lib/site-packages/pydeck/data_utils/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "ac341c79dbbd77dd319ff72c3d32e46234db07c63b111a97a62ad2958992f9c4",
+        "sha256_in_prefix": "ac341c79dbbd77dd319ff72c3d32e46234db07c63b111a97a62ad2958992f9c4",
+        "size_in_bytes": 201
+      },
+      {
+        "_path": "Lib/site-packages/pydeck/data_utils/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "942926ddb9fdffd4bbde9710addce66a622615021fff1ec8f4741fcb3f1c5e36",
+        "sha256_in_prefix": "942926ddb9fdffd4bbde9710addce66a622615021fff1ec8f4741fcb3f1c5e36",
+        "size_in_bytes": 359
+      },
+      {
+        "_path": "Lib/site-packages/pydeck/data_utils/__pycache__/binary_transfer.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "5f4918d52b3ddcd2da2b27fea747d1bc4d7ca5b01447a974e8547ddce0f99c9d",
+        "sha256_in_prefix": "5f4918d52b3ddcd2da2b27fea747d1bc4d7ca5b01447a974e8547ddce0f99c9d",
+        "size_in_bytes": 1358
+      },
+      {
+        "_path": "Lib/site-packages/pydeck/data_utils/__pycache__/color_scales.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "78f8c64478c66b56192e26d73ce3fdd8eeb58430792e05da7b2ea14a5ac8bff7",
+        "sha256_in_prefix": "78f8c64478c66b56192e26d73ce3fdd8eeb58430792e05da7b2ea14a5ac8bff7",
+        "size_in_bytes": 1459
+      },
+      {
+        "_path": "Lib/site-packages/pydeck/data_utils/__pycache__/type_checking.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "2409c33174b1e12bab407b2c794003bc1f4a6790c4977839f2611f2d183aafcf",
+        "sha256_in_prefix": "2409c33174b1e12bab407b2c794003bc1f4a6790c4977839f2611f2d183aafcf",
+        "size_in_bytes": 961
+      },
+      {
+        "_path": "Lib/site-packages/pydeck/data_utils/__pycache__/viewport_helpers.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "4544c4496965f1e2a2871306fdbc36c07fee9e9c98be8824672818b3123cb1d4",
+        "sha256_in_prefix": "4544c4496965f1e2a2871306fdbc36c07fee9e9c98be8824672818b3123cb1d4",
+        "size_in_bytes": 5900
+      },
+      {
+        "_path": "Lib/site-packages/pydeck/data_utils/binary_transfer.py",
+        "path_type": "hardlink",
+        "sha256": "da5f25ac16b52c0ab8737dd4f80a1dbd52fd595f5998fa0b3048282b1f524559",
+        "sha256_in_prefix": "da5f25ac16b52c0ab8737dd4f80a1dbd52fd595f5998fa0b3048282b1f524559",
+        "size_in_bytes": 2230
+      },
+      {
+        "_path": "Lib/site-packages/pydeck/data_utils/color_scales.py",
+        "path_type": "hardlink",
+        "sha256": "c52450b7c051febfe8f522d2aa65328f832a48a27822fb27bc8a9ef0d2dcd6b4",
+        "sha256_in_prefix": "c52450b7c051febfe8f522d2aa65328f832a48a27822fb27bc8a9ef0d2dcd6b4",
+        "size_in_bytes": 875
+      },
+      {
+        "_path": "Lib/site-packages/pydeck/data_utils/type_checking.py",
+        "path_type": "hardlink",
+        "sha256": "453e1ad03d37e285bc31d85b88b089a181384b9ce3910679e5e70b3cd771ea3b",
+        "sha256_in_prefix": "453e1ad03d37e285bc31d85b88b089a181384b9ce3910679e5e70b3cd771ea3b",
+        "size_in_bytes": 732
+      },
+      {
+        "_path": "Lib/site-packages/pydeck/data_utils/viewport_helpers.py",
+        "path_type": "hardlink",
+        "sha256": "ba4607ade31eeb1a5cb34829465773691a9a80334ac3cdd46e152580cd08cfe1",
+        "sha256_in_prefix": "ba4607ade31eeb1a5cb34829465773691a9a80334ac3cdd46e152580cd08cfe1",
+        "size_in_bytes": 4803
+      },
+      {
+        "_path": "Lib/site-packages/pydeck/exceptions/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e1d525cb1daf6130ef691ae58df5e2d04d000f451069514826d3388b430a9b6c",
+        "sha256_in_prefix": "e1d525cb1daf6130ef691ae58df5e2d04d000f451069514826d3388b430a9b6c",
+        "size_in_bytes": 75
+      },
+      {
+        "_path": "Lib/site-packages/pydeck/exceptions/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "a47b4216cb7e7a77c8f38e6524c596efe40cfc0084e63ef415df806d4d3bd8bc",
+        "sha256_in_prefix": "a47b4216cb7e7a77c8f38e6524c596efe40cfc0084e63ef415df806d4d3bd8bc",
+        "size_in_bytes": 219
+      },
+      {
+        "_path": "Lib/site-packages/pydeck/exceptions/__pycache__/exceptions.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "ce84f0e5c2138753851dbf5e69e1188ff513a768ebf76ed748bef8b2a6c60488",
+        "sha256_in_prefix": "ce84f0e5c2138753851dbf5e69e1188ff513a768ebf76ed748bef8b2a6c60488",
+        "size_in_bytes": 454
+      },
+      {
+        "_path": "Lib/site-packages/pydeck/exceptions/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "ad8153fbe8390ff7da518318055b090cabda07e8f361b2c575040a504b742fe8",
+        "sha256_in_prefix": "ad8153fbe8390ff7da518318055b090cabda07e8f361b2c575040a504b742fe8",
+        "size_in_bytes": 107
+      },
+      {
+        "_path": "Lib/site-packages/pydeck/frontend_semver.py",
+        "path_type": "hardlink",
+        "sha256": "5fa85b36887f7a6aef0ec3b3bf41d465f056ea5f31ec280461ac0ff87f082713",
+        "sha256_in_prefix": "5fa85b36887f7a6aef0ec3b3bf41d465f056ea5f31ec280461ac0ff87f082713",
+        "size_in_bytes": 25
+      },
+      {
+        "_path": "Lib/site-packages/pydeck/io/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/pydeck/io/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "4b3668a34d4f02b3baf32206158cd0db95859658841107323f061119554ca1cc",
+        "sha256_in_prefix": "4b3668a34d4f02b3baf32206158cd0db95859658841107323f061119554ca1cc",
+        "size_in_bytes": 126
+      },
+      {
+        "_path": "Lib/site-packages/pydeck/io/__pycache__/html.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "4c9e61e2eefa1bbb267ea8cf2d7d27b185a8c8b26032e12a121249a35d83c6c6",
+        "sha256_in_prefix": "4c9e61e2eefa1bbb267ea8cf2d7d27b185a8c8b26032e12a121249a35d83c6c6",
+        "size_in_bytes": 4082
+      },
+      {
+        "_path": "Lib/site-packages/pydeck/io/html.py",
+        "path_type": "hardlink",
+        "sha256": "d1fa4eaae88753beab6837f4966eeacdf97acd3c022dfd38cc4c9e9699869998",
+        "sha256_in_prefix": "d1fa4eaae88753beab6837f4966eeacdf97acd3c022dfd38cc4c9e9699869998",
+        "size_in_bytes": 4606
+      },
+      {
+        "_path": "Lib/site-packages/pydeck/io/templates/index.j2",
+        "path_type": "hardlink",
+        "sha256": "285171f7d2cc572ff6726c5c6098d4fb6b5f6849431598b53338b37ca02fbd06",
+        "sha256_in_prefix": "285171f7d2cc572ff6726c5c6098d4fb6b5f6849431598b53338b37ca02fbd06",
+        "size_in_bytes": 1272
+      },
+      {
+        "_path": "Lib/site-packages/pydeck/io/templates/style.j2",
+        "path_type": "hardlink",
+        "sha256": "56506d2e7b587bed4d5708a3a914571ab5a72a7e24a1f6cb42b5ad814550a8ac",
+        "sha256_in_prefix": "56506d2e7b587bed4d5708a3a914571ab5a72a7e24a1f6cb42b5ad814550a8ac",
+        "size_in_bytes": 433
+      },
+      {
+        "_path": "Lib/site-packages/pydeck/nbextension/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "162e615bed7354c80d74b84ca4bda403640682cccc638389e16e24f9bd54d1ea",
+        "sha256_in_prefix": "162e615bed7354c80d74b84ca4bda403640682cccc638389e16e24f9bd54d1ea",
+        "size_in_bytes": 529
+      },
+      {
+        "_path": "Lib/site-packages/pydeck/nbextension/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "691220e056d2feb13be0d6e4a8a867f20145c4a4c28bd9d6c79068716b186c4a",
+        "sha256_in_prefix": "691220e056d2feb13be0d6e4a8a867f20145c4a4c28bd9d6c79068716b186c4a",
+        "size_in_bytes": 705
+      },
+      {
+        "_path": "Lib/site-packages/pydeck/nbextension/static/.gitkeep",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/pydeck/nbextension/static/extensionRequires.js",
+        "path_type": "hardlink",
+        "sha256": "f4aa244bd6575b6a98eff4ddfdecadfb5942b5286344050256469c194a2c1027",
+        "sha256_in_prefix": "f4aa244bd6575b6a98eff4ddfdecadfb5942b5286344050256469c194a2c1027",
+        "size_in_bytes": 304
+      },
+      {
+        "_path": "Lib/site-packages/pydeck/nbextension/static/index.js",
+        "path_type": "hardlink",
+        "sha256": "5e1ba192581bb62881980051206f44c6da27066cb2c6dd216f9ec8ccd01b3acb",
+        "sha256_in_prefix": "5e1ba192581bb62881980051206f44c6da27066cb2c6dd216f9ec8ccd01b3acb",
+        "size_in_bytes": 2100294
+      },
+      {
+        "_path": "Lib/site-packages/pydeck/nbextension/static/index.js.map",
+        "path_type": "hardlink",
+        "sha256": "ee102462db3cedf19850bac70b6d6e35c813a347d78f73556e3fc18dee594242",
+        "sha256_in_prefix": "ee102462db3cedf19850bac70b6d6e35c813a347d78f73556e3fc18dee594242",
+        "size_in_bytes": 6136221
+      },
+      {
+        "_path": "Lib/site-packages/pydeck/settings.py",
+        "path_type": "hardlink",
+        "sha256": "c04df7cac545943c83826e4655adac5598241a0f6ec17a8ff9d89bca827a0e2b",
+        "sha256_in_prefix": "c04df7cac545943c83826e4655adac5598241a0f6ec17a8ff9d89bca827a0e2b",
+        "size_in_bytes": 1196
+      },
+      {
+        "_path": "Lib/site-packages/pydeck/types/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "dfa200d98ac11cdf86501b2ce72e31247299f864d6943a1b7a2f204ffd027955",
+        "sha256_in_prefix": "dfa200d98ac11cdf86501b2ce72e31247299f864d6943a1b7a2f204ffd027955",
+        "size_in_bytes": 68
+      },
+      {
+        "_path": "Lib/site-packages/pydeck/types/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "4f46bc11311e05a24b5dac4f9199787c211a664d3bcc373b261da9fd55ba6d53",
+        "sha256_in_prefix": "4f46bc11311e05a24b5dac4f9199787c211a664d3bcc373b261da9fd55ba6d53",
+        "size_in_bytes": 201
+      },
+      {
+        "_path": "Lib/site-packages/pydeck/types/__pycache__/base.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "ed8a2557d4cde05db3ab05cd723e93c3ea2b5ffefb4d248f56b75f42cfe2c38e",
+        "sha256_in_prefix": "ed8a2557d4cde05db3ab05cd723e93c3ea2b5ffefb4d248f56b75f42cfe2c38e",
+        "size_in_bytes": 461
+      },
+      {
+        "_path": "Lib/site-packages/pydeck/types/__pycache__/image.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "17c8b23629cfe7c58078e4ef907c41f5faa1f83db9887c5c44470143fcc4588e",
+        "sha256_in_prefix": "17c8b23629cfe7c58078e4ef907c41f5faa1f83db9887c5c44470143fcc4588e",
+        "size_in_bytes": 2041
+      },
+      {
+        "_path": "Lib/site-packages/pydeck/types/__pycache__/string.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "2b84c7460a5da9d8b23991fcbcef1bbbe62bec145e0d5af8d0ee7479d297bffd",
+        "sha256_in_prefix": "2b84c7460a5da9d8b23991fcbcef1bbbe62bec145e0d5af8d0ee7479d297bffd",
+        "size_in_bytes": 1067
+      },
+      {
+        "_path": "Lib/site-packages/pydeck/types/base.py",
+        "path_type": "hardlink",
+        "sha256": "3abc1a18acd38ce0e7af1d6fe462fcda5e83dde54d335e70b4eb3aeaf10663c6",
+        "sha256_in_prefix": "3abc1a18acd38ce0e7af1d6fe462fcda5e83dde54d335e70b4eb3aeaf10663c6",
+        "size_in_bytes": 118
+      },
+      {
+        "_path": "Lib/site-packages/pydeck/types/image.py",
+        "path_type": "hardlink",
+        "sha256": "725b0bd9393ab9d99bb0ec6d824e7ab0e0a960c43e2769ce55519ab623377f35",
+        "sha256_in_prefix": "725b0bd9393ab9d99bb0ec6d824e7ab0e0a960c43e2769ce55519ab623377f35",
+        "size_in_bytes": 1771
+      },
+      {
+        "_path": "Lib/site-packages/pydeck/types/string.py",
+        "path_type": "hardlink",
+        "sha256": "2305920cb2367ba607a3e48a2deed5a947ebecb019cef6c2dfe72f7ce1d7d72b",
+        "sha256_in_prefix": "2305920cb2367ba607a3e48a2deed5a947ebecb019cef6c2dfe72f7ce1d7d72b",
+        "size_in_bytes": 531
+      },
+      {
+        "_path": "Lib/site-packages/pydeck/widget/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c3968c59d42b93fd8cee0091310fe254f99202c0f3d2d35a536939989e83712c",
+        "sha256_in_prefix": "c3968c59d42b93fd8cee0091310fe254f99202c0f3d2d35a536939989e83712c",
+        "size_in_bytes": 41
+      },
+      {
+        "_path": "Lib/site-packages/pydeck/widget/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "601fa03454176282380bc0a44989abe948eb5fb5837bc7ce452967b31a5f81b2",
+        "sha256_in_prefix": "601fa03454176282380bc0a44989abe948eb5fb5837bc7ce452967b31a5f81b2",
+        "size_in_bytes": 173
+      },
+      {
+        "_path": "Lib/site-packages/pydeck/widget/__pycache__/_frontend.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "27866afe108e5a9612c114cbf3ccd99067b915ab25fb3c1d4969abe78394b7ce",
+        "sha256_in_prefix": "27866afe108e5a9612c114cbf3ccd99067b915ab25fb3c1d4969abe78394b7ce",
+        "size_in_bytes": 250
+      },
+      {
+        "_path": "Lib/site-packages/pydeck/widget/__pycache__/debounce.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "eb6fc78c31dd44bfbf3b0dba3848c30347d691ee866b15e1343d1b9657dbce93",
+        "sha256_in_prefix": "eb6fc78c31dd44bfbf3b0dba3848c30347d691ee866b15e1343d1b9657dbce93",
+        "size_in_bytes": 1441
+      },
+      {
+        "_path": "Lib/site-packages/pydeck/widget/__pycache__/widget.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "9a9e38de4722a44e0ffc17cc6654f7d7d1cc35007f00fe3a6da5516d6e30327d",
+        "sha256_in_prefix": "9a9e38de4722a44e0ffc17cc6654f7d7d1cc35007f00fe3a6da5516d6e30327d",
+        "size_in_bytes": 5049
+      },
+      {
+        "_path": "Lib/site-packages/pydeck/widget/_frontend.py",
+        "path_type": "hardlink",
+        "sha256": "07f6ea4df2f5a0a142cf7cf67f2f5c66f7ac1e1ec83e3311eeee758467638e26",
+        "sha256_in_prefix": "07f6ea4df2f5a0a142cf7cf67f2f5c66f7ac1e1ec83e3311eeee758467638e26",
+        "size_in_bytes": 447
+      },
+      {
+        "_path": "Lib/site-packages/pydeck/widget/debounce.py",
+        "path_type": "hardlink",
+        "sha256": "89a233221588b558706ad71756784671cddc88ee1b988042dfd87efd7b60e095",
+        "sha256_in_prefix": "89a233221588b558706ad71756784671cddc88ee1b988042dfd87efd7b60e095",
+        "size_in_bytes": 694
+      },
+      {
+        "_path": "Lib/site-packages/pydeck/widget/widget.py",
+        "path_type": "hardlink",
+        "sha256": "6f2073e93bbd79c526633c68a396106d0c066fda7fa37b30e10aaf84cc05f637",
+        "sha256_in_prefix": "6f2073e93bbd79c526633c68a396106d0c066fda7fa37b30e10aaf84cc05f637",
+        "size_in_bytes": 5114
+      },
+      {
+        "_path": "etc/jupyter/nbconfig/notebook.d/pydeck.json",
+        "path_type": "hardlink",
+        "sha256": "8b94f463fd101670b294003eadc7da29079012e04b40460631a175e42ffcd3be",
+        "sha256_in_prefix": "8b94f463fd101670b294003eadc7da29079012e04b40460631a175e42ffcd3be",
+        "size_in_bytes": 68
+      },
+      {
+        "_path": "share/jupyter/nbextensions/pydeck/extensionRequires.js",
+        "path_type": "hardlink",
+        "sha256": "f4aa244bd6575b6a98eff4ddfdecadfb5942b5286344050256469c194a2c1027",
+        "sha256_in_prefix": "f4aa244bd6575b6a98eff4ddfdecadfb5942b5286344050256469c194a2c1027",
+        "size_in_bytes": 304
+      },
+      {
+        "_path": "share/jupyter/nbextensions/pydeck/index.js",
+        "path_type": "hardlink",
+        "sha256": "5e1ba192581bb62881980051206f44c6da27066cb2c6dd216f9ec8ccd01b3acb",
+        "sha256_in_prefix": "5e1ba192581bb62881980051206f44c6da27066cb2c6dd216f9ec8ccd01b3acb",
+        "size_in_bytes": 2100294
+      },
+      {
+        "_path": "share/jupyter/nbextensions/pydeck/index.js.map",
+        "path_type": "hardlink",
+        "sha256": "ee102462db3cedf19850bac70b6d6e35c813a347d78f73556e3fc18dee594242",
+        "sha256_in_prefix": "ee102462db3cedf19850bac70b6d6e35c813a347d78f73556e3fc18dee594242",
+        "size_in_bytes": 6136221
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "1c94dd260db40d4573d56831d358a18d93ab4ae7ca8689a0318c0532c018aa27",
+  "size": 1657604,
+  "subdir": "win-64",
+  "timestamp": 1657894925002,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/pydeck-0.7.1-py37haa95532_0.conda",
+  "version": "0.7.1"
+}
