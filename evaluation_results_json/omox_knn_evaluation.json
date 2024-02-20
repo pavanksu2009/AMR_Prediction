@@ -1,0 +1,1 @@
+{"classification_metrics": {"accuracy": {"value": 0.83135509396637}, "precision": {"value": 0.19444444444444445}, "recall": {"value": 0.0219435736677116}, "f1": {"value": 0.039436619718309855}, "roc_auc": {"value": 0.502457400456874}}}
